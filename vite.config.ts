@@ -6,6 +6,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/', // <- importante para que funcione con tu dominio
+  base: './', // <- importante para que funcione con tu dominio
 });
 
